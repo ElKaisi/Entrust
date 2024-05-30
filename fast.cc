@@ -94,7 +94,7 @@ int main(int argc, char** argv) {
     }
     //last page print
     
-    fprintf(outputFile,"\nPage %d\n\n",pageCount);
+    fprintf(outputFile,"\n\nPage %d\n\n",pageCount);
     
 
     //Don't forget to free allocated memory and close file descriptors
