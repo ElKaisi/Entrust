@@ -93,9 +93,9 @@ int main(int argc, char** argv) {
         }
     }
     //last page print
-    if (numLines > 0) {
-        fprintf(outputFile,"\nPage %d\n\n",pageCount);
-    }
+    
+    fprintf(outputFile,"\nPage %d\n\n",pageCount);
+    
 
     //Don't forget to free allocated memory and close file descriptors
     free(oneLineText);
