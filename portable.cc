@@ -58,7 +58,8 @@ int main(int argc, char** argv) {
         }
         outputFile << currentWord << L" ";
     }
-
+    //Print the last page number
+    outputFile << L"\n\n" << L"Page " << numPages << L"\n\n";
     inputFile.close();
     outputFile.close();
     
