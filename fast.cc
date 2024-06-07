@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
         return 1;
     }
     //Get the path to the file from the command line
-    const char* PATH_TO_FILE = "china.txt";PATH_TO_FILE = argv[1];
+    const char* PATH_TO_FILE = argv[1];
 
     FILE* inputFile = fopen(PATH_TO_FILE,"r");      //File descriptor of the opened file, path can exist, otherwise it creates it
    
